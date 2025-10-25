@@ -1,13 +1,16 @@
-# Loop through a dictionary
+# Iterate through a dictionary
 
-dictionarys = {
+dicto = {
     "name" : "Rahul",
-    "age" : 22,
+    "age" : "22",
     "city" : "Kolkata",
 }
 
-for key in dictionarys:
+for key in dicto:
     print(key)
-
-for value in dictionarys.values():
+print("--------")
+for value in dicto.values():
     print(value)
+
+# for key, values in dicto.items():
+#     print(key,"-",values)

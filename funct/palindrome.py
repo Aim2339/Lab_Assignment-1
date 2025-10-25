@@ -8,5 +8,5 @@ def pal(x):
     else:
         print(y,"is not a palindrome")
 
-z = str((input("Enter something: ")))
+z = str(input("Enter something: "))
 pal(z)

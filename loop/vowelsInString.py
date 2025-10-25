@@ -9,4 +9,5 @@ text2 = text.lower()
 for i in text2:
     if i in vowels:
         count +=1
-print("Total numbr of vowels in the given string is: ",count)
+print("Total number of vowels in the given string is:",count)
+
